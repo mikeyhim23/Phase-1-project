@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Anime Zone</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Anime Review</h1>
+        <input type="text" id="title" placeholder="Search by title">
+        <input type="text" id="genre" placeholder="Search by genre">
+        <button type="button" onclick="searchAnime()">Search</button>
+        
+        <div id="animeList"></div>
+
+        <div>
+            <h2>Reviews</h2>
+            <input type="text" id="reviewInput" placeholder="Write your review here...">
+            <button type="button" onclick="submitReview()">Submit Review</button>
+            <ul id="reviews"></ul>
+        </div>
+    </div>
+
+    <script src="project.js"></script>
+</body>
+</html>
